@@ -9,3 +9,6 @@ def compute_loss(y_true, y_pred):
 
 def derivation_sigmoid(a):
     return a * (1 - a)
+
+def ReLU(x):
+    return np.maximum(0, x)
